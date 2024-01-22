@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Puzzle Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="introduction">
+            <h1>Speeches of a Dream</h1>
+            <p>Fill-in-the-Blanks</p>
+        </div>
+
+        <div id="puzzleSection">
+            <form id="puzzleForm">
+                <p>
+"It was a creed written into the fo<span class="blank"><input type="text" maxlength="1" name="letterA1"></span>nding documents that</span><br> 
+                declared the <span class="blank"><input type="text" maxlength="1" name="letterA2"></span>estiny of a
+nation: Yes, we can.</span><br>
+It was whispered by slav<span class="blank"><input type="text" maxlength="1" name="letterA3"></span>s and abolitionists as they blazed</span><br> 
+                a trail towards freedom through the darkest of nig<span class="blank"><input type="text" maxlength="1" name="letterA4"></span>ts:</span><br> 
+                Yes, we can.</span><br>
+It was sung by immigrants as they struck out from distant</span><br> 
+                shores and <span class="blank"><input type="text" maxlength="1" name="letterA5"></span>ioneers who
+pushed westward <span class="blank"><input type="text" maxlength="1" name="letterA6"></span>gainst</span><br> 
+                an unforgiving wilderness: Yes, we can.</span><br>
+It was the call of w<span class="blank"><input type="text" maxlength="1" name="letterA7"></span>rkers who organized, women who</span><br> 
+                reached for the ballot, a
+presiden<span class="blank"><input type="text" maxlength="1" name="letterA8"></span> who chose the moon</span><br> 
+                as our new <span class="blank"><input type="text" maxlength="1" name="letterA9"></span>rontier, and a king who took us to the</span><br>
+mountaintop and pointed the way to the pr<span class="blank"><input type="text" maxlength="1" name="letterA10"></span>mised land:</span><br> 
+                Yes, we can, to justice and
+equality.</span><br>
+Yes, we can, to opportunit<span class="blank"><input type="text" maxlength="1" name="letterA11"></span> and prosperity. </span><br>
+Yes, we can heal this nation. Yes, we can repair this world. </span><br>
+Yes, we <span class="blank"><input type="text" maxlength="1" name="letterA12"></span>an....</span><br>
+Together, we will begin the next great chapter in the</span><br> 
+                Americ<span class="blank"><input type="text" maxlength="13" name="letterA1"></span>n story, with three
+words that will r<span class="blank"><input type="text" maxlength="1" name="letterA14"></span>ng from</span><br> 
+                coast to coast, from sea to shining sea:</span><br> Yes, we can."</span><br>
+
+-Barack Obama "Yes We Can"</span><br>
+
+
+                </p>
+                
+                <p>Collected Letters: <span id="collectedLetters"></span></p>
+
+                <p>Unscramble the Phrase:</p>
+                <div id="unscrambleArea">
+                    <input type="text" id="unscrambledWord1" maxlength="8" placeholder="______" name="unscrambledWord1">
+                    <input type="text" id="unscrambledWord2" maxlength="2" placeholder="______" name="unscrambledWord2">
+                    <input type="text" id="unscrambledWord3" maxlength="4" placeholder="___" name="unscrambledWord3">
+                </div>
+                <p>Word Lengths: 8, 2, 4</p>
+                <p>**Lowercase letters only</p>
+                <br>
+
+                
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
